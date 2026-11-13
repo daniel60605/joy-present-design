@@ -10,3 +10,4 @@
 .ambient::after{left:10%;top:27%;width:83%;height:62%;border-color:#dededb45;box-shadow:0 0 95px 20px #e0e0da09;animation-delay:-7s;animation-duration:21s}
 @keyframes arc-light{from{transform:translate(-2%,1%) rotate(-32deg);opacity:.4}to{transform:translate(5%,4%) rotate(-23deg);opacity:1}}
 @media(prefers-reduced-motion:reduce){.ambient::before,.ambient::after{animation:none;opacity:.65}}
+.ambient{opacity:.65}.shader-ready .ambient canvas{opacity:.14;mix-blend-mode:soft-light}
